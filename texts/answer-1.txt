@@ -1,1 +1,180 @@
-This page may be out of date. Save your draft before refreshing this page.Submit any pending changes before refreshing this page. Hide this message.QuoraSign InAman's Quora BlogBuild a solid career in tech without a CS major Aman GoelAlice is a 2nd year material science and metallurgical engineering student at IIT Bombay. She worked hard during her JEE preparation, but ended up screwing JEE. She secured a rank around 2,000. She is from a middle class family and she wanted to opt for Computer Science so that she can build a career in tech and support her family and make her parents proud. However, during JEE counselling, she was able to narrow down her choices to the following:Choose CS at a tier 2 collegeChoose IIT Bombay material science and metallurgical engineeringSince she had heard a lot about IIT Bombay, she ended up choosing IIT Bombay material sciences. However, soon after a few courses in the first year, she realized that she doesn’t like her stream and rather wants to build a career in tech. She also realizes that it is impossible to get her branch changed to Computer Science because the competition is too stiff and her meagre 7 pointer is way below the cutoff of 9.6.Now she is stuck with:Low gradesA branch that she doesn’t likeCannot pursue her love for programmingWorried about jobs and placements at the end of undergradAre you also someone who is like Alice? Did you also choose a branch just for the sake of getting a better college? Are you from a middle class family and want to use your undergrad to build a solid career in tech so that you can support your family? Are you the one who has lost all hope of your career in tech after your first year of undergrad?If the answer to these questions is ‘yes’, I have a surprise for you. Read on!Let me talk a bit about myself. I am a fourth year Computer Science and Engineering undergrad at IIT Bombay. I have spent 3.5 excellent years at IIT Bombay and I have 3 more months before I graduate. This place is excellent, full of smart people. This place has given me a lot - I was a student, this place made me an engineer. I feel like I owe a lot to my college.I have always seen people complain about their branch. This is what I hear quite often from my friends in other branches:I always wanted to study Computer Science, but ah, only top 50 rankers get it, I wasn’t even top 500.My branch is extremely boring. Most of it is cramming. It sucks!I wish I could go back and choose Computer Science in that tier 2 college. Why the hell did I choose my branch?There was a common behavior among all of these people - they all wanted to study CS, but could not do so. JEE rank is the culprit. What was more surprising was that most of them did not utilize the gazillions of programming resources available on the internet that claim to make you a programmer.Then I had a word with a few of them and I got to know that they are confused. Below are the most common questions:How should I proceed ahead?Should I learn web development?Should I try Android app development?What programming language should I learn?How many programming languages should I learn?How to make a website?Should I try freelancing?I was in close contact with a friend of mine who was in a situation very similar to Alice. Let us call my friend as Bob. Bob was fed up of his branch. His only aim was to go in the industry and earn money and make his parents proud. Since I was from Computer Science background, I tried helping Bob and within 2 years, this is what Bob’s boasts off:Hired as a software engineer at a decent tech company with twice the average package of an IITian. No doubt, Bob grabbed the highest package in his department where all other people were below the average packageSoftware engineering internship at a Mumbai based startup at the end of his third yearToday, Bob is happy and is looking forward to his life ahead as a successful software engineer. He is happy that he will earn enough to support his family and himself.Plenty of sources on the internet claim to teach you programming, but the fact is that none of them gives a proper road-map and non CS students find it really hard to figure out what should be done first and what should be done later. They end up picking a difficult topic and then give up easily. For instance, Bob wanted to try android app development in his 2nd year but gave up because he couldn’t understand even the basics.In this blog post, I want to target people like Alice and Bob and want to create a resource that will help every non CS student build a career as a software engineer. My vision in writing this blog post is that every student has a right to learn Computer programming in the right way. Every student should have enough resources that can help her/him to build a career as a software engineer.Enough of context, let us begin :)I am assuming that you are probably in your 2nd/3rd/4th year of undergrad in a non-CS department, looking for building a career as a software engineer. I further assume that you have done a basic programming course, which is typically compulsory in most colleges. This means that you are aware of at least one of these programming languages - C, C++, Java, Python.First a bit of motivation:The demand for software engineers in India is very high and with more and more new startups, the demand will certainly increase.The starting salaries of software engineers in India are typically twice the salary of other streams. If you are from a tier 1 college, expect even more.Some famous person has said - the best investment you can do to yourself in today’s era is to teach yourself how to program.Let us now talk about how exactly your approach should be so as to achieve your goal of becoming a software engineer.3rd semesterBy the end of first year, you would have certainly completed a basic programming course. For your 3rd sem, you should aim for a course in probability and statistics. Almost all colleges offer such courses and you should enroll in the course offered by your institute. You can choose to sit through the course. But definitely take a probability class early in your curriculum. I have heard that the course offered by MIT OCW is quite good.Taking probability class will also help you reinforce some of your linear algebra concepts which are important for many CS courses.4rd semesterTake the following 2 courses:Data structures and algorithmsDiscrete mathematicsData structures and algorithms is a course without which you cannot proceed ahead in computer science. It is a fundamental course and every student must take one such course.This course will be slightly hard. It is highly technical and even the best students get bowled when challenging data structures and algorithms problems are thrown. This course will literally be a test of your patience and so, be patient. If you are able to complete this course, you will be 50% closer to your goal.Discrete mathematics is a course that teaches you mathematics for computer science. You will be studying mathematical induction, combinatorics and other stuff.Here are the resources I would strongly recommend:Algorithms, Part I - Princeton University | Coursera. This is an excellent course. The course is taught in Java. If you don’t know Java, that’s okay. Spend considerable time in understanding what the professor is teaching and try to implement it in whichever programming language you know.Mathematics for Computer Science. This course is offered by MIT and known to be quite good.Recommended books:For data structures and algorithms, I would recommend the book suggested by Robert Sedgewick. The other recommended book is Cormen, but it is slightly more involved and contains rigorous mathematics which you might not appreciate.For discrete mathematics, I would recommend Kenneth Rosen - an excellent book.Keep in mind - write as much code as you can. Unless you write code, you won’t learn. Try to implement everything you learn in Data structures class.Summer break after 2nd yearUse the summer break to hone your programming skills. Head to this link - Sphere Online Judge (SPOJ). SPOJ is an online judge. What is that?SPOJ is an archive of problems that are to be solved by writing code. Consider this simple problem - SPOJ.com - Problem TEST. You need to take input from the user until the user enters ‘42’. Stop as soon as you get 42. Now, observe how to solve this here - Solution to TEST in C. Basically, programming judges have very strict submission guidelines. Don’t print “Enter a number:” when you want to take a number as input. It doesn’t work that way. You submit the code without printing crap. Just print what is specified in the problem statement. Read the sample test cases to get an idea. Do a Google search to understand how online judges work.Solve the first 100 problems in the link that I gave you above. Trust me, you will become a coding ninja if you do this. You will be better than some of your CS friends at programming. No, I am not lying :)100 problems isn’t a big goal. Try solving 2–3 per day and you should be done in 1–1.5 months depending on your speed.Spend time here. If you are unable to get a solution, try harder. Read comments to get hints. Use Google search to get hints. After trying for some 30 or so minutes, if you don’t get a solution, try searching for solution on Google - ‘SPOJ X solution’ where X is the problem code.Your goal should be to learn how to write code, learn the implementations of common algorithms, learn the usage of STL.After you have solved first 5–10 problems on SPOJ, I would also recommend taking a look at this Getting Started with the Sport of Programming. This doc will help you understand things better.5th semesterDuring 5th and 6th semester, you should start searching for internships which you can take up at the end of your third year.However, that will be a side task. Primary task during the 5th semester should be to:Learn web developmentLearn android app developmentYou should get at least 3 projects on your resume at the end of 5th semester:2 web development projects1 android app development projectOur first task would be to learn Django.What is it? It is a Python based web development framework.Why learn it? Django is in high demand among Indian startups these days. Also, it is easy to learn.How do I learn it? Head straight to this link - Django Girls Tutorial. Don’t be sad at the name if you are a boy. Nothing sexist here :) This is one of the best Django tutorials out there. Spend a week’s time understanding it. Spend time in understanding how Django works - model, view, controller architecture. If you follow this tutorial religiously, you have achieved 3 things:You now understand basics of Web development in DjangoYou just picked up basics of PythonYou have a decent project to write on your resumeOnce you are done with the Django girls tutorial, the next thing you should try is to build your own Django app. I have a few suggestions for you:Build a photo gallery app - take a hash tag from the user and use TwitterAPI to gather images of that hash tag in a photo gallery. This might be helpful: amangoeliitb/Photo-Gallery-Web-ApplicationA simple banking application - try making both a customer and an employee account.A student dashboard that shows the performance of student.Oh ya, I forgot to tell - make a Github account. Github is a ‘social network’ for programmers. People upload their source codes on Github. There is also something called as ‘git’, which is a version management system. Take this short course on git - How to Use Version Control in Git & GitHub | Udacity. By the way, git is worth learning because you can put it on your resume!There is another important thing I forgot to tell you about - stackoverflow. As a programmer you are bound to face errors and exceptions. What to do? There is an extremely simple technique to deal with errors. Copy the damn error, paste it in your search bar and hit enter. Viola! Open the first 3 links you get on Google search. With a high probability, someone has already faced the error you got and has written a solution on stackoverflow. Stackoverflow links are generally reliable and you can expect them to give you the right answer. Be patient. Read and try. Your code might break. But that’s okay. Use undo. But don’t be afraid of breaking things else you won’t learn.Cool, so now you know web development, Python and you have 2 awesome projects on your resume. Let us move to Android app development. Here are the steps to follow:Head to this link: Android | Udacity. Udacity is a platform in which big tech companies offer courses that you can take up to learn various skills in software engineering. Google has built some excellent Android courses on Udacity and you should definitely take a look at them. Start from beginner level courses. They are very simple and might get completed in a day or two. You should spend at least 1–2 hours a day in these courses. Once you are done with beginner level courses, take up intermediate level courses. Of course, do the free ones. There is no need to spend money on any course/nanodegree. Learning programming should be free for everyone :)Android might be slightly frustrating. The Java used in Android is slightly different from the usual Java in the sense that it is advanced and has a lot of library functions. Don’t get bogged down by it. Remember, you need to be a software engineers. We software engineers are known to solve problems ;) As again, I would suggest that you should use Google search heavily for any errors. Be patient because Android is slightly hard.At the end, you would have 3 more things on your resume:Android app developmentJavaAn android app based projectWith this much on your resume, you are sure to get an internship.6th semesterIn this semester, you should get serious about your internship (if you haven’t got one yet). Anyway, here are the pointers for internship:AngelList is an excellent platform where startups are looking for interns. Make an AngelList account and add your projects and skills on it. You are sure to gather attention of some startups with those awesome Android and web development skills.Search for other internship portals. Be active on LinkedIn.Start preparing for interviews. The way hiring in computer science works is that you are shortlisted for interviews based on your resume. During interviews, you are asked data structures and algorithms based problems. The level of problems would be similar to what you have been doing on SPOJ so you can be happy that your hard work will finally pay off. I would recommend continuing SPOJ practice. It is easier to lose skills than pick up skills.To prepare for interviews, use the following 3 excellent sources:Cracking the coding Interview - this book is the bible for programming interviews. Purchase it or download a pdf (piracy is bad). Try reading the theory and solve the problems. Try to actually implement the solutions.Coding Interview Questions - This is a brilliant platform to hone your interview skills.GeeksforGeeks - this is an great programming blog/archive.Also, I would suggest that you should be prepared with questions from your 5th semester projects. You should be able to explain the code you wrote. Interviewer might ask you about a specific library you used. Don’t worry, you should have a high level idea that you should be able to explain. No one will ask you syntax.That was about internships. Besides the internship, you should try taking up some miscellaneous courses like:Machine Learning - Machine Learning - Stanford University | CourseraIntro to Machine Learning Course | UdacityCryptography - Applied Cryptography and Encryption Class Online | UdacityThese courses should help you put 2 more projects on your resume and also expand your CS knowledge. No doubt they will also open up more internship domains for you:Data/ML engineer internSecurity engineer internSummers at the end of 3rd yearEnjoy your internship. Work hard and try to get a return offer7th semesterPrepare hard for placements during this sem. The following topics are asked during placements:Data structures and algorithms - the standard bread and butter of CSProbability - school level prob/stats questions. These should be easy for youDatabases and Operating systems - we are yet to talk about thisSince you are not from CS department, a lot of companies won’t be open for you during placements. But don’t worry. Quite a few companies would be willing to take you if you have worked hard over the past 2 years. Aim specifically for web/android dev positions. These are easy to grab.Now let us talk about databases and operating systems (OS):Databases - in your Django web app, you would have used SQLite/MySQL/Postgres as your database. A database is a special kind of data structure that stores data in hard disk. Some companies like to ask databases related questions to the candidates. Being a non CS student, of course you aren’t expected to do a formal databases course (if you can, then that’s a big plus though!). Search for databases interview questions to get a basic idea of what is asked. I guess I will leave this point open ended because by this time, you would have become smart enough to figure this out yourself :)Operating systems - pretty much the same applies here as well. Doing a quick Google search for operating systems interview questions will give you enough practice problems which will be fine for most interviews.If you are interested, you should take up online courses on databases and OS:Stanford databasesIntro to Relational Databases | UdacityIntroduction to Operating Systems | UdacityHaving said that, keep in mind that data structures and algorithms is something very important for placements and InterviewBit should be the one place where you should spend your maximum time.If you have followed the above points seriously and worked hard for the 2.5 years, trust me, your hard work will pay off now. You are sure to bag a decent package during the placements. Bob was placed right on day 3. He was the only one in his department who got placed in the first week. And his package was twice the average package of an IITian.8th semesterDuring this semester, you have multiple options:If you got a job, you can chill out.If you haven’t got a job yet (very unlikely), you should consider applying to startups on AngelList. The startups on AngelList are actively looking for full time hires.Take up more projects - you can continue take up courses and continue working on various projects. Here is a brilliant resource for you - Students - Guide to Technical Development - Google CareersIntern remotely at a startup - again, AngelList comes to the rescue. You can keep the course load lesser and rather do a remote internship at a startup. This will not only give you experience, but also if you work hard, you might end up with another job offer.I guess I wrote a lot and I will be concluding now. In the end, I would like to add a few basic pointers specific to CS:CS is easy provided you understand that you need to implement stuff (write actual code) otherwise you won’t be able to learn things.Don’t be afraid to try out new things. Don’t think that - oh this is too hard, and is meant for experts. No. Nothing is meant for experts. All it takes is those 5–10 minutes of sincere reading and I can guarantee that there is nothing you cannot pickup.Don’t be afraid of breaking things. Don’t think that - oh my machine might break if I do that. At the very most, you might end up with a broken software, which can be easily fixed. It is unlikely that you will do a damage to hardware.Learn with friends. You will be amazed to see how smart the people around you are and you can learn a lot by interacting with others.Good luck and all the very best for your future and career!10,344 views · 382 upvotes · Posted Feb 6
+This page may be out of date. 
+Save your draft
+ before refreshing this page.
+Submit any pending changes before refreshing this page.
+ 
+Hide this message
+.
+Quora
+Sign In
+ 
+Mailbox (app)
+ 
+Python (programming language)
+ 
+Programming Languages
+ 
+Computer Programming
+How do I access my mailbox using Python?
+Update
+Cancel
+Promoted by UpGrad.com
+Post graduate diploma in data science from IIIT Bangalore.
+Build your science career, choose your specialization, 3 month capstone project.
+Apply Now at upgrad.com/data_science
+Answer Wiki
+2 Answers
+ 
+ 
+Nishchith K
+, TechGeek
+Answered Mar 11
+Accessing an unread email can be done using the below python script .
+import poplib
+import time
+
+USERNAME = 'username'
+PASSWORD ='password'
+popserver = 'pop.gmail.com' 
+pop = poplib.POP3_SSL(popserver)
+pop.user(USERNAME)
+pop.pass_(PASSWORD)
+
+count , total_len = pop.stat()[0],pop.stat()[1]
+
+print(" No of unread mail : ",count)
+for c in range(count):
+    for message in pop.retr(c+1)[1]:
+        print(message)
+    time.sleep(10)
+
+Some pop3 servers
+ :
+http://pop.mail.yahoo.com
+pop.aol.com
+pop.att.yahoo.com
+http://pop.gmail.com
+Note :
+The above script also generates some unnecessary information which can be refined for further usage .
+You need to enable POP and IMAP access under settings .
+355
+ Views
+ · 
+2 Upvotes
+Related Questions
+More Answers Below
+In Python can we add a dictionary inside a dictionary? If yes how can we access the inner dictionary using the key in the primary dictionary?
+Which one is the best to use to access my Outlook mailbox, exchangelib or IMAP?
+Why do so many startups use Python as a programming language?
+How do I use Python to access data stored in Essbase?
+How do I set up a Gmail account in the Mailbox app?
+ 
+ 
+Edwin Lazar
+Answered Mar 11
+Hi,
+using this python script we can access our mail box.
+import email, getpass, imaplib, os
+detach_dir = '.' # directory where to save attachments (default: current)
+user = raw_input("Enter your GMail username:")
+pwd = getpass.getpass("Enter your password: ")
+# connecting to the gmail imap server
+m = imaplib.IMAP4_SSL("imap.gmail.com")
+m.login(user,pwd)
+m.select("cs2043") # here you a can choose a mail box like INBOX instead
+# use m.list() to get all the mailboxes
+resp, items = m.search(None, "ALL") # you could filter using the IMAP rules here (check http://www.example-code.com/csharp/imap-search-critera.asp)
+items = items[0].split() # getting the mails id
+for emailid in items:
+ resp, data = m.fetch(emailid, "(RFC822)") # fetching the mail, "`(RFC822)`" means "get the whole stuff", but you can ask for headers only, etc
+ email_body = data[0][1] # getting the mail content
+ mail = email.message_from_string(email_body) # parsing the mail content to get a mail object
+ #Check if any attachments at all
+ if mail.get_content_maintype() != 'multipart':
+ continue
+ print "["+mail["From"]+"] :" + mail["Subject"]
+ # we use walk to create a generator so we can iterate on the parts and forget about the recursive headach
+ for part in mail.walk():
+ # multipart are just containers, so we skip them
+ if part.get_content_maintype() == 'multipart':
+ continue
+ # is this part an attachment ?
+ if part.get('Content-Disposition') is None:
+ continue
+ #filename = part.get_filename()
+ filename = mail["From"] + "_hw1answer"
+ att_path = os.path.join(detach_dir, filename)
+ #Check if its already there
+ if not os.path.isfile(att_path) :
+ # finally write the stuff
+ fp = open(att_path, 'wb')
+ fp.write(part.get_payload(decode=True))
+ fp.close()
+
+Thank you.
+109
+ Views
+Promoted by HT Media
+Accenture, Cisco and JP Morgan are hiring IT professionals.
+Send in your application to get hired. Competitive salary. Apply now.
+Apply Now at shine.com
+More
+Related Questions
+What is the best way to access a file using Python?
+What is the best IDE for Python?
+How can I access any website using python?
+How can I access Naver LINE API using Python or R?
+Where should I use Python?
+Why is Python used for hacking?
+Can I make an Android app with Python?
+Why did Quora choose Python for its development?
+How do I find the missing patches in a mailbox server?
+How do I access the objective C function using Python?
+Related Questions
+In Python can we add a dictionary inside a dictionary? If yes how can we access the inner dictionary using the key in the primary dictionary?
+Which one is the best to use to access my Outlook mailbox, exchangelib or IMAP?
+Why do so many startups use Python as a programming language?
+How do I use Python to access data stored in Essbase?
+How do I set up a Gmail account in the Mailbox app?
+What is the best way to access a file using Python?
+What is the best IDE for Python?
+How can I access any website using python?
+How can I access Naver LINE API using Python or R?
+Where should I use Python?
+Sitemap:
+#
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+About
+ · 
+Careers
+ · 
+Privacy
+ · 
+Terms
+ · 
+Contact
