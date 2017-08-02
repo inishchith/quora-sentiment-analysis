@@ -25,7 +25,7 @@ def visible(element):
     elif re.match('<!--.*-->', str(element.encode('utf-8'))):
         return False
     return True
- 
+
 def valid_link_text(url,query_flag = 1):
     try:
         cleaned = urllib.request.urlopen(url)
