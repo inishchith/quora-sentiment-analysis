@@ -1,0 +1,4 @@
+matplotlib
+urllib
+BeautifulSoup
+nltk

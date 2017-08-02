@@ -7,7 +7,8 @@ markdown_github, markdown_mmd, markdown_phpextra, markdown_strict, mediawiki, na
 
 
 import urllib.request
-import pypandoc
+#import pypandoc
+import sys
 import time
 from nltk import word_tokenize
 from nltk.corpus import stopwords
@@ -41,16 +42,18 @@ def valid_link_text(url,query_flag = 1):
     else:
         return True
 
-def save_data(data,data_name,question_name,from_extension = None,to_extension = None,):
+def save_data(data,data_name=None,question_name=None,from_extension = None,to_extension = None,):
     if from_extension!=None:
         print("conv")
-        #out = pypandoc.convert_file("temp.html",'docx',outputfile='Done.docx')
 
     elif to_extension!=None:
-        text_file = open("texts/"+"words_answer-"+data_name+to_extension,"w")
+        number = data_name
+        if question_name!=None:
+            number = "blog"
+        text_file = open("texts/"+"answer_words-"+number+to_extension,"w")
         text_file.write(question_name)
         text_file.write("\n")
-        # ignore top 10 lines 	and save in particular words
+        # ignore top 10 lines
         break_point = ["Sitemap:","Related Questions"]
 
         for line in data[10:] :
@@ -71,14 +74,13 @@ def save_data(data,data_name,question_name,from_extension = None,to_extension = 
 
 def get_answer_blog():
     start_url = input("Enter answer / blog url :")
-    # start_url = "https://www.quora.com/profile/Aman-Goel-9"
+
     text_data = valid_link_text(start_url)
     if text_data == False:
         return
-    # print(text_data)
-    c = 1
-    save_data(text_data,data_name=str(c),to_extension=".txt")
-    #for line in soup.findAll('span',{'class':'rendered_qtext'}):
+
+    save_data(text_data,question_name=start_url,to_extension=".txt")
+
     print("grabbed answer / blog successfully")
 
 def get_latest_questions(url):
@@ -87,7 +89,7 @@ def get_latest_questions(url):
 
     data = soup.findAll('span',{"class":"rendered_qtext"})
     result = filter(visible, data)
-    time.sleep(2)  # get_result
+    time.sleep(2)       # get_result
     data  = list(result)
     question_bag = []
     for it in data:
@@ -121,5 +123,11 @@ def get_latest_answers():
 
 
 if __name__ == "__main__":
-    #get_answer_blog()
-    get_latest_answers()
+    if len(sys.argv)==2:
+        if sys.argv[1] == "pick_profile":
+            get_answer_blog()
+        elif sys.argv[1] == "pick_answer":
+            get_latest_answers()
+    else:
+        print("pick_profile - pick answers from profile")
+        print("pick_answer - pick answer directly")
