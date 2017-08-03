@@ -5,7 +5,6 @@ markdown_github, markdown_mmd, markdown_phpextra, markdown_strict, mediawiki, na
 
 '''
 
-
 import urllib.request
 #import pypandoc
 import sys
@@ -124,9 +123,9 @@ def get_latest_answers():
 
 if __name__ == "__main__":
     if len(sys.argv)==2:
-        if sys.argv[1] == "pick_profile":
+        if sys.argv[1] == "pick_answer":
             get_answer_blog()
-        elif sys.argv[1] == "pick_answer":
+        elif sys.argv[1] == "pick_profile":
             get_latest_answers()
     else:
         print("pick_profile - pick answers from profile")
