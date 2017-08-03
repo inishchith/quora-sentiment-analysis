@@ -7,9 +7,9 @@ Used AFINN-111 to do sentiment-analysis on Quora answers and blogposts .
 ------------------------------------------
 * Scraped answers and blogposts from [Quora](https://www.quora.com)  and conveted them into .txt format .
 * Ignored
- - [Stopwords](https://pythonspot.com/en/nltk-stop-words/)
- - Non-Alpha characters [ # , % , * , ! .. ]
- - Words which have no sentiment score defined [words , text , answer  ... ]
+ 1. [Stopwords](https://pythonspot.com/en/nltk-stop-words/)
+ 2. Non-Alpha characters [ # , % , * , ! .. ]
+ 3. Words which have no sentiment score defined [words , text , answer  ... ]
 * Used the sentimental [score-carrying words](./about_AFINN.txt) in [AFINN-111.txt](./AFINN-111.txt) to deduce the overall sentiment of an answer or a blogpost .
 
 
