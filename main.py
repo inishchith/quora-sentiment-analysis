@@ -1,22 +1,15 @@
-'''
-convert files from
-commonmark, docbook, docx, epub, haddock, html, json, latex, markdown,
-markdown_github, markdown_mmd, markdown_phpextra, markdown_strict, mediawiki, native, odt, opml, org, rst, t2t, textile, twiki
-
-'''
-
 import urllib.request
 #import pypandoc
 import sys
 import time
-from nltk import word_tokenize
+from nltk import word_tokenize,sent_tokenize
 from nltk.corpus import stopwords
 import re
 import urllib.request
 from bs4 import BeautifulSoup
 
 
-stop_words = set(stopwords.words('english'))
+stop_words = set(stopwords.words("English"))
 
 def visible(element):
     if element.parent.name in ['style', 'script', '[document]', 'head', 'title']:
@@ -43,7 +36,7 @@ def valid_link_text(url,query_flag = 1):
 
 def save_data(data,data_name=None,question_name=None,from_extension = None,to_extension = None,):
     if from_extension!=None:
-        print("conv")
+        print("unavailable now !")
 
     elif to_extension!=None:
         number = data_name
@@ -78,6 +71,7 @@ def get_answer_blog():
     if text_data == False:
         return
 
+    #print(text_data)
     save_data(text_data,question_name=start_url,to_extension=".txt")
 
     print("grabbed answer / blog successfully")
